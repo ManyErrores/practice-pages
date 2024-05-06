@@ -4,10 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practice Pages - AppLii</title>
+    <link rel="icon" href="https://applii-wu.net/pages/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" />
+    <style>
+      body {
+        font-family: "Noto Sans", sans-serif;
+        color: #3a3939;
+      }
+      code, pre{
+        padding:0.25rem;
+        background-color: rgb(200, 180, 150);
+      }
+    </style>
   </head>
   <body>
-    <h1>Practice Pages</h1>
-    <p>このリポジトリは、HTMLページの作成と公開までを体験する練習用リポジトリです。</p>
-    <p><a href="https://github.com/AppLii/practice-pages" target="_blank">https://github.com/AppLii/practice-pages</a></p>
+    <h2>Practice Pages - AppLii</h2>
+    <p>新入生研修用 HTML ページの作成と公開までを体験する練習用リポジトリ</p>
+    <p>「Web ページを作ってみたいけど、いきなりサーバーに触るのは難しい」という人は、このリポジトリで Web ページの制作・公開を試してみましょう。</p>
+
+    <h2>やり方</h2>
+    <ol>
+      <li>
+        ルートディレクトリに新しくフォルダーを作ります。
+        <ol>
+          <li>今回は<code>_sample</code>という名前のフォルダーを作ったとして進めます。ここで指定したファイル名が、公開 URL の一部となります。</li>
+          <li>例：<a href="https://applii-wu.net/practice-pages/_sample/">https://applii-wu.net/practice-pages/_sample/</a></li>
+        </ol>
+      </li>
+      <li><code>_sample</code>フォルダーの中に<code>index.html</code>という名前のファイルを作成します。ファイル名を間違えると、このページにアクセスできません。</li>
+      <li>
+        <code>index.html</code>を記述します。ここでは、以下のコードを書き込んでみます。
+        <pre>
+  &lt;!DOCTYPE html&gt;
+  &lt;html lang="jp"&gt;
+  &lt;head&gt;
+      &lt;meta charset="UTF-8" /&gt;
+      &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+      &lt;title&gt;sample page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+      &lt;p&gt;Hello World&lt;/p&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;</pre>
+      </li>
+      <li>作成・変更したファイルを GitHub へプッシュしましょう。すると自動的にデプロイ（公開作業）が始まりますので、1 分ほど待てばページがインターネットから閲覧できるようになります。</li>
+    </ol>
+    <h2>注意事項</h2>
+    <p>ここで記載した情報は削除できません。書き込む情報は十分に気をつけましょう。（ファイルを消したとしても、削除前のログが残ります）</p>
+    <h2>Tips</h2>
+    <p>フォーマッタやプレビューツールなど、品質の高いコードをラクに作成するための道具がいろいろあります。調べて使ってみましょう。</p>
   </body>
 </html>
